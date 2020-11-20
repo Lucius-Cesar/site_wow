@@ -1,0 +1,472 @@
+
+#head {
+  width : 100% ;
+  position : relative ;
+  z-index : 1 ;
+}
+
+#races{
+  position : absolute ;
+  top : 75%;
+  left : 24%;
+  z-index : 2;
+  max-width:12%;
+  height:auto;
+}
+
+#races:hover {
+opacity: 0.8 ;
+}
+
+#classes{
+  position : absolute ;
+  top : 76%;
+  left : 40%;
+  z-index : 2;
+  max-width:15.5%;
+  height:auto;
+}
+
+#classes:hover {
+opacity: 0.8 ;
+}
+
+#extensions{
+  position : absolute ;
+  top : 76.5%;
+  left : 59.2%;
+  z-index : 2;
+  max-width:21%;
+  height:auto;
+}
+
+#extensions:hover {
+opacity: 0.8 ;
+}
+
+#votez{
+  position : absolute ;
+  top : 76%;
+  left : 85%;
+  z-index : 2;
+  max-width:11%;
+  height:auto;
+}
+
+#votez:hover {
+opacity: 0.8 ;
+}
+
+#wow_logo{
+  position : absolute ;
+  top : 64%;
+  left : -1.2%;
+  z-index : 2;
+  max-width:24%;
+  height:auto;
+}
+
+#wow_logo:hover {
+opacity: 0.8 ;
+}
+
+#races2{
+  position : absolute ;
+  top : 15%;
+  left : 24%;
+  z-index : 2;
+  max-width:12%;
+  height:auto;
+}
+
+#races2:hover {
+opacity: 0.8 ;
+}
+
+#classes2{
+  position : absolute ;
+  top : 16%;
+  left : 40%;
+  z-index : 2;
+  max-width:15.5%;
+  height:auto;
+}
+
+#classes2:hover {
+opacity: 0.8 ;
+}
+
+#extensions2{
+  position : absolute ;
+  top : 16.5%;
+  left : 59.2%;
+  z-index : 2;
+  max-width:21%;
+  height:auto;
+}
+
+#extensions2:hover {
+opacity: 0.8 ;
+}
+
+#votez2{
+  position : absolute ;
+  top : 16%;
+  left : 85%;
+  z-index : 2;
+  max-width:11%;
+  height:auto;
+}
+
+#votez2:hover {
+opacity: 0.8 ;
+}
+
+#wow_logo2{
+  position : absolute ;
+  top : -13%;
+  left : -1.2%;
+  z-index : 2;
+  max-width:24%;
+  height:auto;
+}
+
+#wow_logo2:hover {
+opacity: 0.8 ;
+}
+
+#home {
+	width : 100% ;
+	position : relative ;
+	z-index : 1 ;
+}
+
+@font-face {
+    font-family: 'topazianoncommercialregular';
+    src: url('fonts/topazianoncommercial-webfont.woff2') format('woff2'),
+         url('fonts/topazianoncommercial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#acceuil {
+
+	width : 90% ;
+	font-family : 'topazianoncommercialregular' ;
+	font-weight : bold ;
+	font-size : 200% ;
+	background-color: rgba(25, 20, 16, .5);
+	color : white ;
+	position : absolute ;
+	top : 12% ;
+	left : 5% ;
+	z-index : 10;
+	text-align : center;
+}
+
+@font-face {
+    font-family: 'marcellusregular';
+    src: url('fonts/marcellus-regular-webfont.woff2') format('woff2'),
+         url('fonts/marcellus-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#faction_txt {
+	font-family: 'Marcellus', serif;
+	font-weight: bold;
+    font-style: normal;
+    color : white ;
+    text-align : center ;
+    font-size : 250%;
+}
+
+#horde_txt {
+	font-family: 'Marcellus', serif;
+	font-weight: bold;
+    font-style: normal;
+    color : #B9B9B9 ;
+    position : absolute ;
+    top : 38% ;
+    left : 31.5% ;
+    font-size : 3vw;
+    z-index : 2 ;
+}
+    
+#alliance_txt {
+	font-family: 'Marcellus', serif;
+	font-weight: bold;
+    font-style: normal;
+    color : #B9B9B9;
+    position : absolute ;
+    left : 55.7% ;
+    top : 38% ;
+	font-size : 3vw;
+    z-index : 2 ;
+}
+
+#alliance {
+	width : 15% ;
+	float : left ;
+	position : absolute ;
+	left : 55%;
+	top : 50%;
+}
+
+#alliance:hover {
+opacity: 0.8 ;
+}
+
+#horde {
+	width : 25% ;
+	float : left ;
+	position : absolute ;
+	left : 24%;
+	top : 51%;
+}
+
+
+#horde:hover {
+opacity: 0.8 ;
+}
+
+#chaman {
+	float : left ;
+	width : 15%;
+	margin-left : 5%;
+}
+
+#img_bloc {
+	display: block ;
+}
+
+#chaman:hover {
+opacity: 0.7 ;
+}
+
+#chasseur {
+	float : left ;
+	width : 15%;
+}
+
+
+#chasseur:hover {
+opacity: 0.7 ;
+}
+
+#demo {
+	float : left ;
+	width : 15%;
+}
+
+
+#demo:hover {
+opacity: 0.7 ;
+}
+
+#druide {
+	float : left ;
+	width : 15%;
+}
+
+
+#druide:hover {
+opacity: 0.7 ;
+}
+
+#guerrier {
+	width : 14vw;
+	position : absolute ;
+	margin-left : -14% ;
+	margin-top : 15%;
+	z-index:2;
+}
+
+
+#guerrier:hover {
+opacity: 0.7 ;
+}
+
+#mage {
+	float : left ;
+	width : 15%;
+}
+
+
+#mage:hover {
+opacity: 0.7 ;
+}
+
+#paladin {
+	float : left ;
+	width : 15%;
+}
+
+
+#paladin:hover {
+opacity: 0.7 ;
+}
+
+#pretre {
+	float : left ;
+	width : 15%;
+	margin-left : 5% ;
+}
+
+
+#pretre:hover {
+opacity: 0.7 ;
+}
+
+#voleur {
+	float : left ;
+	width : 15%;
+}
+
+
+#voleur:hover {
+opacity: 0.7 ;
+}
+
+#dk {
+	float : left ;
+	width : 15%;
+}
+
+
+#dk:hover {
+opacity: 0.7 ;
+}
+
+#moine {
+	float : left ;
+	width : 15%;
+}
+
+
+#moine:hover {
+opacity: 0.7 ;
+}
+
+#dh {
+	float : left ;
+	width : 15%;
+}
+
+
+#dh:hover{
+opacity: 0.7 ;
+}
+
+#classe_txt {
+	margin-left : 5% ;
+	width : 15%;
+}
+
+
+#extension_img {
+	float : left ;
+	margin : 2.5% ;
+	width : 15% ;
+	z-index : 1 ;
+}
+
+#extension_img:hover {
+opacity: 0.8 ;
+}
+
+#extension_background {
+	width : 100% ;
+	position : relative ;
+	z-index :1;
+}
+
+#extension_txt {
+	font-family : font-family: 'marcellusregular';
+	font-weight : normal;
+	font-size : 1.5vw ;
+	width : 50% ;
+	background-color: rgba(25, 20, 16, .7);
+	color : white ;
+	position : absolute ;
+	top : 12vw ;
+	margin : 2vw;
+	z-index : 10;
+	text-align : center ;
+}
+
+#subtitile { 
+	font-size : 2vw ;
+	font-family : 'Marcellus', serif;
+}
+
+#titre_extension { 
+	font-size : 3.5vw ;
+	font-family : 'Marcellus', serif;
+	text-align : center ;
+	color : white ;
+}
+
+#class_txt {
+font-family : font-family: 'marcellusregular';
+	font-weight : normal;
+	font-size : 1.5vw ;
+	width : 50% ;
+	background-color: rgba(25, 20, 16, .5);
+	color : white ;
+	position : absolute ;
+	top : 12vw ;
+	margin : 2vw;
+	z-index : 10;
+	text-align : center ;
+}
+
+#nom_class {
+	font-size : 3.5vw ;
+	font-family : 'Marcellus', serif;
+	text-align : center ;
+	color : white ;
+}
+
+
+#class_img {
+	width : 25% ;
+	margin-left : 65%;
+	margin-top : 0%;
+	background-attachment: local ;
+	z-index : 1;
+	position : fixed ;
+ 
+}
+
+
+#lien_race {
+	text-decoration: none ;
+	font-size : 3vw ;
+	font-family : 'Marcellus', serif;
+	color : #B9B9B9 ;
+	padding: 20%;
+	text-align : center ;
+	list-style: none;
+}
+
+#lien_race:hover{
+	opacity: 0.7 ;
+}
+
+label {
+	font-family : 'Marcellus', serif;
+	color : white ;
+	margin-left : 35vw ;
+	padding : 1vw;
+	display : inline-block;
+	}
+#formsend {
+	margin-left : 70vw ; 
+}
+
+
+
+
